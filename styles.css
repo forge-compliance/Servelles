@@ -107,5 +107,39 @@ h1,h2,h3{font-family:"Cormorant Garamond",serif;margin:0;font-weight:600}h1{font
 
 @media(max-width:900px){
   .luxury-brand .brand-name,.luxury-brand .brand-sub{display:none!important}
+
+  /* SERVELLE'S FIXED BACKGROUND IMAGE */
+
+.main {
+    position: relative !important;
+    background: none !important;
+}
+
+.main::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 218px;
+    right: 0;
+    bottom: 0;
+
+    background-image:
+        linear-gradient(
+            rgba(5, 8, 12, 0.42),
+            rgba(5, 8, 12, 0.58)
+        ),
+        url("./Backgroundimage.png") !important;
+
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+
+    z-index: -1;
+}
+
+.app-shell {
+    position: relative;
+    isolation: isolate;
+}
   .luxury-brand .brand-mark{font-size:44px!important;margin:0}
 }
