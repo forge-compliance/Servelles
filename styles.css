@@ -52,7 +52,7 @@ h1,h2,h3{font-family:"Cormorant Garamond",serif;margin:0;font-weight:600}h1{font
 .main{
   background:
     linear-gradient(rgba(5,8,12,.50), rgba(5,8,12,.68)),
-    url('YOUR-IMAGE-FILE.jpg') center center / cover no-repeat fixed !important;
+    url('Backgroundimage.png') center center / cover no-repeat fixed !important;
 }
 
 .luxury-brand{
