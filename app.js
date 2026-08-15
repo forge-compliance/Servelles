@@ -64,6 +64,6 @@ Object.assign(window,{openRequest,confirmRequest,completeRequest,openTransfer,tr
      document.body.appendChild(t); setTimeout(()=>t.remove(),2600);
      requestAnimationFrame(()=>document.querySelector('#newRequestsList .request-card')?.classList.add('demo-incoming'));
      btn.disabled=false; btn.textContent='✦ SIMULATE GUEST REQUEST';
-   },1500);
+   },5000);
  });
 })();
